@@ -13,7 +13,9 @@
   ],
   "scripts": {
     "build:client": "yarn workspace client build",
-    "start:client": "yarn workspace client start"
+    "start:client": "yarn workspace client start",
+    "build:server": "yarn workspace server build",
+    "start:server": "yarn workspace server start"
   },
   "devDependencies": {
     "jest": "^29.3.1",
