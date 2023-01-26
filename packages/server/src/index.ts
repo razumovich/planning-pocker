@@ -1,9 +1,9 @@
-import express from 'express';
+import express from "express";
 
 const app = express();
 
-app.get('/', (_, res) => {
-    res.json({ message: 'Planning Pocker!!!' })
+app.get("/", (_, res) => {
+  res.json({ message: "Planning Pocker" });
 });
 
 app.listen(3000);

@@ -35,7 +35,5 @@
     "types": ["node", "jest"],
     "useDefineForClassFields": true
   },
-  "include": [
-    "packages/*/src"
-  ]
+  "include": ["packages/*/src"]
 }
