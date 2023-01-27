@@ -1,6 +1,5 @@
 import React from "react";
 import { createRoot } from "react-dom/client";
-
-const App = () => <h1>Planning Pocker</h1>;
+import { App } from "./components/App";
 
 createRoot(document.querySelector("#app") as Element).render(<App />);
